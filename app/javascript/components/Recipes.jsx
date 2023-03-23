@@ -28,7 +28,7 @@ const Recipes = () => {
         />
         <div className="card-body">
           <h5 className="card-title">{recipe.name}</h5>
-          <Link to={`/recipes/${recipe.id}`}>
+          <Link to={`/recipe/${recipe.id}`}>
             View Recipe
           </Link>
         </div>
